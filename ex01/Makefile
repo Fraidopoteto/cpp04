@@ -1,15 +1,16 @@
 C++ = c++
-C++_FLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic -g
+C++_FLAGS = -Wall -Wextra -Werror -std=c++98 -g
 INFILES = 	main.cpp\
 			Animal.cpp \
 			Dog.cpp \
 			Cat.cpp \
 			WrongAnimal.cpp \
-			WrongCat.cpp
+			WrongCat.cpp \
+			Brain.cpp
 
 OBJFILES = $(INFILES:.cpp=.o)
 
-NAME = ex00
+NAME = ex01
 
 all: $(NAME)
 
